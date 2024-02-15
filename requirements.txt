@@ -1,0 +1,8 @@
+torch
+numpy
+opencv-python
+Pillow
+scipy
+tqdm
+gradio==3.17.0
+transformers

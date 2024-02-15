@@ -42,6 +42,35 @@ Welcome to the Image Retrieval Web Application repository! This project focuses 
 - The images in the Oxford Buildings dataset can be found [here](https://thor.robots.ox.ac.uk/datasets/oxford-buildings/oxbuild_images-v1.tgz).
 - The groundtruth can be downloaded [here](https://www.robots.ox.ac.uk/~vgg/data/oxbuildings/gt_files_170407.tgz)
 
+## Feature vector comparison algorithm
+
+### Euclidean Distance
+
+The Euclidean distance measures the straight-line distance between two points in Euclidean space. For vectors \(X\) and \(Y\) of dimension \(n\), the Euclidean distance (\(ED\)) is calculated as follows:
+
+\[ ED(X, Y) = \sqrt{\sum_{i=1}^{n} (X_i - Y_i)^2} \]
+
+This method is suitable for scenarios where the absolute magnitude and direction of the vectors are crucial for similarity assessment.
+
+### Cosine Similarity
+
+Cosine similarity calculates the cosine of the angle between two vectors in multi-dimensional space. For vectors \(X\) and \(Y\) of dimension \(n\), the cosine similarity (\(CS\)) is computed as:
+
+\[ CS(X, Y) = \frac{\sum_{i=1}^{n} (X_i \times Y_i)}{\sqrt{\sum_{i=1}^{n} (X_i)^2} \times \sqrt{\sum_{i=1}^{n} (Y_i)^2}} \]
+
+This method is effective when the direction of vectors is more important than their magnitudes. It is widely used in text mining, document analysis, and recommendation systems.
+
+### Time Series Similarity (TS_SS)
+
+Time Series Similarity (TS_SS) is a method specifically designed for comparing the similarity between two time series. It takes into account both amplitude and phase information, making it suitable for time-dependent data. The TS_SS similarity (\(TS\_SS\)) is computed using a dynamic programming approach, providing robust results even in the presence of temporal misalignments.
+
+\[ TS\_SS(X, Y) = \frac{\sum_{i=1}^{n} (X_i - Y_i)^2}{\sqrt{\sum_{i=1}^{n} (X_i)^2 + \sum_{i=1}^{n} (Y_i)^2}} \]
+
+This method is particularly useful for applications involving time series data, such as signal processing, financial analysis, and environmental monitoring.
+
+## Video Demo
+
+For a visual representation of the project in action, check out the [Video Demo](demo/Video-demo.mp4).
 
 ## Installation
 
@@ -59,7 +88,7 @@ Welcome to the Image Retrieval Web Application repository! This project focuses 
 
 3. Run the notebook (Detailed instructions on how to run are provided in here):
    ```bash
-   jupyter notebook app.ipynb
+   jupyter notebook notebook.ipynb
    ```
 
    Visit `http://localhost:7860` in your web browser to access the Image Retrieval Web Application.
