@@ -30,25 +30,25 @@ Welcome to the Image Retrieval Web Application repository! This project focuses 
 - The "Paris Buildings" dataset comprises a collection of high-resolution images capturing various architectural structures across Paris. The dataset is carefully annotated, providing information on building types, architectural styles, and geographic locations. Researchers and developers can leverage this dataset for tasks such as image classification, object detection, and scene understanding.
 
 - For this dataset, it is divided into two parts. You can download them here:
-   * [paris_part1](https://thor.robots.ox.ac.uk/datasets/paris-buildings/paris_1-v1.tgz)
-   * [paris_part2](https://thor.robots.ox.ac.uk/datasets/paris-buildings/paris_2-v1.tgz)
+   * [paris_part1](https://thor.robots.ox.ac.uk/datasets/paris-buildings/paris_1-v1.tgz).
+   * [paris_part2](https://thor.robots.ox.ac.uk/datasets/paris-buildings/paris_2-v1.tgz).
 
-- The groundtruth can be downloaded [here](https://www.robots.ox.ac.uk/~vgg/data/parisbuildings/paris_120310.tgz)
+- The groundtruth can be downloaded [here](https://www.robots.ox.ac.uk/~vgg/data/parisbuildings/paris_120310.tgz).
 
 ### Oxford Buildings
 
 - The "Oxford Buildings" dataset focuses on architectural diversity within the city of Oxford. Similar to the Paris dataset, it includes annotated images to facilitate research in computer vision and related fields. This dataset is particularly suitable for tasks involving cross-city analysis or comparative studies between different architectural environments.
 
 - The images in the Oxford Buildings dataset can be found [here](https://thor.robots.ox.ac.uk/datasets/oxford-buildings/oxbuild_images-v1.tgz).
-- The groundtruth can be downloaded [here](https://www.robots.ox.ac.uk/~vgg/data/oxbuildings/gt_files_170407.tgz)
+- The groundtruth can be downloaded [here](https://www.robots.ox.ac.uk/~vgg/data/oxbuildings/gt_files_170407.tgz).
 
 ## Feature vector comparison algorithm
 
 ### Euclidean Distance
 
-The Euclidean distance measures the straight-line distance between two points in Euclidean space. For vectors \(X\) and \(Y\) of dimension \(n\), the Euclidean distance (\(ED\)) is calculated as follows:
+The Euclidean distance measures the straight-line distance between two points in Euclidean space. For vectors $\(X\)$ and \(Y\) of dimension $\(n\)$, the Euclidean distance ($\(ED\)$) is calculated as follows:
 
-\[ ED(X, Y) = \sqrt{\sum_{i=1}^{n} (X_i - Y_i)^2} \]
+$\[ ED(X, Y) = \sqrt{\sum_{i=1}^{n} (X_i - Y_i)^2} \]$
 
 This method is suitable for scenarios where the absolute magnitude and direction of the vectors are crucial for similarity assessment.
 
