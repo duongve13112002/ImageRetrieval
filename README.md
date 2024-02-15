@@ -31,7 +31,7 @@ Welcome to the Image Retrieval Web Application repository! This project focuses 
 
 - For this dataset, it is divided into two parts. You can download them here:
    * [paris_part1](https://thor.robots.ox.ac.uk/datasets/paris-buildings/paris_1-v1.tgz)
-   * [paris_part2](https://thor.robots.ox.ac.uk/datasets/paris-buildings/paris_2-v1.tgz)"
+   * [paris_part2](https://thor.robots.ox.ac.uk/datasets/paris-buildings/paris_2-v1.tgz)
 
 - The groundtruth can be downloaded [here](https://www.robots.ox.ac.uk/~vgg/data/parisbuildings/paris_120310.tgz)
 
