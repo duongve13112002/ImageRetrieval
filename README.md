@@ -48,7 +48,7 @@ Welcome to the Image Retrieval Web Application repository! This project focuses 
 
 The Euclidean distance measures the straight-line distance between two points in Euclidean space. For vectors $\(X\)$ and \(Y\) of dimension $\(n\)$, the Euclidean distance is calculated as follows:
 
-$\[ ED(X, Y) = \sqrt{\sum_{i=1}^{n} (X_i - Y_i)^2} \]$
+$$ ED(X, Y) = \sqrt{\sum_{i=1}^{n} (X_i - Y_i)^2} $$
 
 This method is suitable for scenarios where the absolute magnitude and direction of the vectors are crucial for similarity assessment.
 
