@@ -14,7 +14,7 @@ Welcome to the Image Retrieval Web Application repository! This project focuses 
 
 ## Models
 
-* In this project, we have implemented 6 models for experimentation. They are as follows:
+* In this project, we have implemented 8 models for experimentation. They are as follows:
   * VisionTransformer
   * BEiT
   * MobileViTV2
